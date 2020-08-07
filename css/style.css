@@ -1,0 +1,405 @@
+/*
+  Theme Name: Name -
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+
+/* CSS Index 
+-----------------------------------
+
+1. Header part
+2. Banner part
+3. Feature part
+4. service part
+5. portfolio part
+6. testimonial part
+7. connection
+8. footer part
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Raleway', sans-serif;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+}
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+ul,
+li,
+ol {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+button:focus {
+    outline: 0;
+}
+
+/*========================================
+==============Header Part================*/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.menu_fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+.header_top {
+    background: #f9c14a;
+}
+.header_top .discount p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    padding: 20px 0;
+}
+.header_top .header_button {
+    text-align: right;
+}
+.header_top .header_button a {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+.header_top .header_button span {
+    padding: 0 20px;
+}
+.main_menu {
+    background: #000000;
+}
+.main_menu .navbar-brand img {
+    padding: 10px 0;
+}
+.main_menu .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 25px 20px;
+    position: relative;
+}
+.main_menu .navbar-nav .nav-item .nav-link:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #f9c14a;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+.main_menu .navbar-nav .nav-item .nav-link.active:after {
+    width: 100%;
+}
+.main_menu .navbar-nav .nav-item .nav-link:hover.nav-link:after {
+    width: 100%;
+}
+
+/*========================================
+==============Banner Part================*/
+
+.banner_item {
+    background: url(../images/banner/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    position: relative;
+}
+#banner_part ul {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    display: flex;
+}
+#banner_part ul li button {
+    border-radius: 50%;
+    font-size: 0;
+    height: 20px;
+    width: 20px;
+    border: transparent;
+    margin: 0 5px;
+    color: #c8c8c8;
+}
+#banner_part ul li.slick-active button {
+    background: #f9c04a;
+}
+#banner_part ul li.slick-active button:focus {
+    outline: 0;
+}
+.banner_search {
+    position: relative;
+    color: #848484;
+}
+.banner_search .icon {
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    transform: translateY(-60%);
+}
+.banner_search .form-control {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    position: relative;
+}
+.banner_search .form-control:focus {
+    box-shadow: none;
+}
+.banner_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner_content h1 {
+    font-size: 36px;
+    padding: 20px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.3);
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.banner_content h1 span {
+    color: #f9c14a;
+}
+.banner_content p {
+    text-align: right;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+.banner_content p a {
+    font-weight: 700;
+    color: #fff;
+}
+
+/*========================================
+==============Browse Part================*/
+
+#browse {
+    background: #f4f4f4;
+    3
+}
+.section_head h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000;
+}
+.section_head a {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000;
+}
+.single_item {
+    text-align: center;
+}
+.single_item p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.nxt_arrow {
+    position: absolute;
+    top: 40%;
+    right: -30px;
+    transform: translateY(-40%);
+    color: #f9c14a;
+    font-size: 40px;
+}
+.pre_arrow {
+    position: absolute;
+    top: 40%;
+    left: -30px;
+    transform: translateY(-40%);
+    color: #444;
+    font-size: 40px;
+}
+
+/*========================================
+==============Feature Part================*/
+
+.feature_item .single_item {
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.feature_item .single_item img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+.feature_item .single_item:hover img {
+    transform: scale(1.1);
+}
+.feature_item .single_item p {
+    position: absolute;
+    background: #f9c14a;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 7px 0;
+}
+.feature_item .single_item .review {
+    position: absolute;
+    color: #f9c14a;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px;
+}
+.feature_item .single_item .more a {
+    position: absolute;
+    color: #fff;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/*========================================
+==============Nearby Part================*/
+
+#nearby {
+    background: #f4f4f4;
+}
+
+/*========================================
+==============App Part================*/
+
+#app .section_head p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    padding: 10px 0;
+}
+
+/*========================================
+==============Footer Part================*/
+
+#footer_part {
+    background: #000000;
+}
+#footer_part .limo_light h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+}
+#footer_part .limo_light p {
+    font-size: 14px;
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+#footer_part .limo_light a.btn {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+    text-transform: uppercase;
+    background: #f9c14a;
+    font-weight: 500;
+}
+#footer_part .limo_light a.btn:hover {
+    background: #fff;
+}
+#footer_part .widgets {
+    position: relative;
+}
+#footer_part .widgets:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -90px;
+    height: 200px;
+    width: 2px;
+    background: #f9c14a;
+}
+#footer_part .widgets h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+#footer_part .widgets ul li a {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 30px;
+    position: relative;
+    margin-top: 15px;
+    font-weight: 500;
+}
+#footer_part .widgets ul li a i {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    line-height: 20px;
+    font-size: 14px;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+}

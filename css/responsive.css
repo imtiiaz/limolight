@@ -1,0 +1,101 @@
+     @media (min-width: 1200px) {
+         .
+     }
+     @media (min-width: 992px) and (max-width: 1199px) {
+         .
+     }
+     @media (min-width: 768px) and (max-width: 991px) {
+         /*header*/
+         .navbar-toggler i {
+             color: #fff;
+             border: 1px solid #fff;
+             border-radius: 5px;
+             padding: 5px 10px;
+         }
+         .main_menu .navbar-nav .nav-item {
+             text-align: center;
+         }
+         .main_menu .navbar-nav .nav-item .nav-link {
+             display: inline-block;
+             padding: 20px 25px;
+         }
+         /*footer*/
+         #footer_part .widgets:after {
+             display: none;
+         }
+     }
+     @media (max-width: 767px) {
+         /*header*/
+         .navbar-toggler i {
+             color: #fff;
+             border: 1px solid #fff;
+             border-radius: 5px;
+             padding: 5px 10px;
+         }
+         .main_menu .navbar-nav .nav-item {
+             text-align: center;
+         }
+         .main_menu .navbar-nav .nav-item .nav-link {
+             display: inline-block;
+             padding-bottom: 15px;
+             padding-top: 15px 20px;
+             font-size: 14px;
+         }
+         .navbar-toggler {
+             font-size: 16px;
+         }
+         /*banner*/
+         .banner_content {
+             top: 60%;
+         }
+         .banner_content h1 {
+             font-size: 32px;
+         }
+         .section_head h2 {
+             font-size: 28px;
+         }
+         /*footer*/
+         #footer_part .widgets:after {
+             display: none;
+         }
+     }
+     @media (max-width: 575px) {
+         /*header*/
+         .main_menu {
+             padding: 0 10px;
+         }
+         .header_top .discount p {
+             font-size: 12px;
+         }
+         .header_top .header_button a {
+             font-size: 12px;
+         }
+         .header_top .header_button span {
+             padding: 0 10px;
+         }
+         .navbar-toggler i {
+             color: #fff;
+             border: 1px solid #fff;
+             border-radius: 5px;
+             padding: 5px 10px;
+         }
+         /*banner*/
+         .banner_item {
+             height: 80vh;
+         }
+         .banner_content {
+             position: inherit;
+             transform: translate(0);
+             margin-top: 120px;
+         }
+         .banner_content h1 {
+             font-size: 28px;
+         }
+         .section_head h2 {
+             font-size: 24px;
+         }
+         #banner_part ul li button {
+             height: 15px;
+             width: 15px;
+         }
+     }
